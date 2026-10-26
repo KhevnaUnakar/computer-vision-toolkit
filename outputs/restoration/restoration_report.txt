@@ -1,0 +1,14 @@
+Image Restoration: Results and Conclusion
+
+Gaussian noise and salt-and-pepper noise were added to the original photograph to evaluate image restoration techniques. 
+Gaussian Blur and Median Blur were applied to both noisy images, and the restored outputs were evaluated using Peak 
+Signal-to-Noise Ratio (PSNR) and Structural Similarity Index (SSIM).
+
+For Gaussian noise, Median Blur achieved a PSNR of 31.61 dB and an SSIM of 0.7685, slightly outperforming Gaussian Blur, 
+which achieved 30.55 dB and 0.7486, respectively. For salt-and-pepper noise, Median Blur achieved the best result, with a 
+PSNR of 40.64 dB and an SSIM of 0.9744. Gaussian Blur performed less effectively on this noise type, with a PSNR of 29.39 dB 
+and an SSIM of 0.7022.
+
+The experiment demonstrates that Median Blur is particularly effective for removing salt-and-pepper noise while preserving the 
+original image structure. The results also show that the effectiveness of a filtering technique depends on the type of noise 
+present in the image.
